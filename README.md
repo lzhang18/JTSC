@@ -1,5 +1,7 @@
 # JTSC
 
+This is the source code for our SDM2020 paper: Semantic Discord: Finding Unusual Local Patterns for Time Series. Paper can be found in https://epubs.siam.org/doi/epdf/10.1137/1.9781611977172.24. 
+
 The main function is TSC_join. 
 
 To run the demo example, please run Demo_JTSC after download the data. 
@@ -16,14 +18,14 @@ B: real-value array of abnormal data
 f: file name for storing matrix profile
 
 run_mp: 1 if we need to rerun matrix profile; 
-        0 if we stored matrix profile before.
+        0 if we stored matrix profile before. In that case, we need to place a pre-computed mp in the same folder. 
         
 SubseqLength: subsequence length of time series chain. Default value is set as 45.  
 
 To run the demo in Matlab: 
 >> Demo_JTSC
 
-If you find our work helpful, please cite the following: 
+If you find the work or the data helpful, please cite the following: 
 
 ```bash
 @inproceedings{zhang2022joint,
