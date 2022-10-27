@@ -1,6 +1,6 @@
-# JTSC
+# Joint Time Series Chain (JTSC)
 
-This is the source code for our SDM2020 paper: Semantic Discord: Finding Unusual Local Patterns for Time Series. Paper can be found in https://epubs.siam.org/doi/epdf/10.1137/1.9781611977172.24. 
+This is the source code for our SDM2022 paper: joint time series chain: detecting unusual evolving trend across time series. 
 
 The main function is TSC_join. 
 
